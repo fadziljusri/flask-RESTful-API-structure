@@ -16,6 +16,7 @@ def Res201(data, message=None):
     }, 201
 
 def Res204(message=None):
+    print (message)
     return {
         "status": "success",
         "data": None,
